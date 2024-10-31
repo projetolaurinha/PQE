@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/entre.css">
+    <link rel="stylesheet" href="assets/css/form.css">
 
 
     <!--links externos-->
@@ -57,6 +57,7 @@
         }
     </style>
 <body>
+
      <header id="header" class="header">
         <nav class="nav-bar">
             <div class="logo">
@@ -69,16 +70,50 @@
         
      </header><!-- end header -->
 
-       <div class="informe">
-           <h1>Bem- Vindo a nossa plataforma</h1>
-           <h4>Por favor, nos informe</h4>
-      </div>
+     <form action="/submit" method="POST" enctype="multipart/form-data">
+        <label for="name">Nome Completo</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="birthdate">Data de Nascimento</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+    
+        <label for="gender">Gênero</label>
+        <select id="gender" name="gender">
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+            <option value="N">Prefiro não dizer</option>
+        </select>
+    
+        <label for="cpf">CPF</label>
+        <input type="text" id="cpf" name="cpf" required pattern="\d{11}" title="Digite 11 números.">
+    
+        <label for="phone">Telefone</label>
+        <input type="tel" id="phone" name="phone" required pattern="\(\d{2}\) \d{5}-\d{4}" title="Formato (XX) XXXXX-XXXX">
+    
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="address">Endereço</label>
+        <input type="text" id="address" name="address" required>
+    
+        <label for="profession">Profissão</label>
+        <input type="text" id="profession" name="profession" required>
+    
+        <label for="nationality">Nacionalidade</label>
+        <input type="text" id="nationality" name="nationality" required>
+    
+        <label for="descricao">Deixe uma breve descrição sobre você!</label>
+        <input type="text" id="descricao" name="descricao" required>
+    
+        <label for="photo">Foto de Perfil</label>
+        <input type="file" id="photo" name="photo" accept="image/*">
+    
+        <button type="submit">Salvar</button>
+    </form>
 
-      
-     <div class="container">
-        <button><a href="cad_prof.php">Sou Profissional</a></button>
-        <button><a href="cad_resp.php">Sou Responsável</a></button>
-        <button><a href="jogos.html">Área Infantil</a></button>
-    </div> 
 
- </body>
+
+
+
+   
+</body>

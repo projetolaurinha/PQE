@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/profissionais.css">
+    <link rel="stylesheet" href="assets/css/cad.css">
+
 
     <!--links externos-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,54 +57,39 @@
         }
     </style>
 <body>
-    <header id="header" class="header">
-       <nav class="nav-bar">
+     <header id="header" class="header">
+        <nav class="nav-bar">
             <div class="logo">
                 <a href="index.html" alt="logo Focaut"><h1>pqe.</h1></a>
-            </div>
-
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#relatorios">Relatorios</a></li>
-                    <li class="nav-item"><a href="desenvolvimento">Desenvolvimento</a></li>
-                   
-                </ul>
-
-
-                
             
-        </nav>
-        
-        
-    </header><!-- end header -->
-
-    <section id="relatorios">
-        <div class="relatorios">
-            <div class="image-container">
-                <img src="assets/img/png/relatorio.png" alt="">
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img id="icon" src="assets/img/svg/menu-svgrepo-com.svg" alt="menu hamburguer"></button>
             </div>
-            <div class="text-container">
-                <h2>Qual a função dos relatórios?</h2>
-                <p>Os relatórios ajudam os profissionais a relatarem sobre as evoluções que a criança vem tendo, as maiores dificuldades, e até mesmo quais passos devem ser dados adiante, além de claro manter os responsáveis mais bem informados sobre a situação.</p>
-            </div>
-
-            <a href="#" class="btn-download">Visualizar Relatório</a>
-   
-    
-
-        </div>
-    </section>
-
-   
-   
-    
-    
+         </nav>
+        
+     </header><!-- end header -->
      
-    
+
+     <div class="container">
+        <h2>Login</h2>
+        <form>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <label for="senha">Username:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <button type="submit"><a href="responsaveis.html">Concluir</a></button>
+        </form>
+
+        <button class="google-login">
+            <img src="assets/img/png/icone_google.png" alt="">
+            Fazer Login com Google
+        </button>
+    </div>
 
 
-
-
-
-
-</body>
+ </body>
