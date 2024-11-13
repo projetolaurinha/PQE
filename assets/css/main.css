@@ -110,7 +110,7 @@
 
 /* About */
 #about {
-    background: #F6c1a1;
+    background: #fff;
     padding-top: 40px;
     padding-bottom: 90px;
 }
@@ -137,11 +137,22 @@
 }
 
 .container-about {
+    background-color: #93d7d4;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 10%;
+}
+
+.texto{
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 60%;
+    margin-right: 20px;
 }
 
 .row {
@@ -155,6 +166,13 @@
 }
 
 .img-sobre {
+    
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 470px;
     animation: float 5s ease-in-out infinite;
 }
@@ -248,18 +266,24 @@
 
 /* Causes */
 #extras {
-    background: #F6dec8;
+    background: #fff;
     padding: 60px 0 10px 0;
 }
 
 .container-extras {
-    margin: 0 20px 0 20px;
-    text-align: center;
+    background-color: #93d7d4;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: 10%;
 }
 
 .container-extras h3 {
     font-size: 39px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     color: #ee74da;
     font-weight: bold;
     font-family: menuFont;
@@ -276,10 +300,10 @@
 }
   
 .card {
-    width: 320px;
+    width: 250px;
     height: 491px;
     margin: 0;
-    background-color: #Fff4ef  ;
+    background-color: #fff ;
     padding-bottom: 30px;
     margin-bottom: 30px;
     border-radius: 8px;
@@ -378,7 +402,7 @@
 
 .integrantes-secao {
     padding: 50px 20px;
-    background-color: #F6c1a1;
+    background-color: #fff;
     text-align: center;
 }
 
@@ -388,10 +412,14 @@
 }
 
 .integrantes-container {
+background-color: #93d7d4;
+    border-radius: 20px;
+    padding: 40px;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: 10%;
 }
 
 .integrante {

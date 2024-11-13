@@ -98,7 +98,7 @@ a {
   top: 0;
   left: 0;
   z-index: 996;
-  background: #bd754e ;
+  background: #fff ;
   border-bottom: .04rem solid #e2e2e2;
   padding: 20px 100px 20px 100px;
 }
@@ -295,7 +295,7 @@ footer h3 {
 }
 
 #footer_content {
-  background: #bd754e;
+  background: #fff;
   display: flex;
   padding: 20px;
   align-items: center;
@@ -308,12 +308,12 @@ footer h3 {
 }
 
 #footer_content h3 {
-  color: #fff;
+  color: #000;
   margin-bottom: 15px;
 }
 
 #footer_content p {
-  color: #fff;
+  color: #000;
 }
 
 #footer_contacts {
