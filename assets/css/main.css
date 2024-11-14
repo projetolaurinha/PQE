@@ -137,7 +137,7 @@
 }
 
 .container-about {
-    background-color: #93d7d4;
+    background-color: #4ECDC4BF;
     border-radius: 20px;
     padding: 40px;
     display: flex;
@@ -166,15 +166,15 @@
 }
 
 .img-sobre {
-    
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 470px;
+    
+
     animation: float 5s ease-in-out infinite;
+    margin-top: 40px;
+    margin-left: 50%px;
 }
 
 @keyframes float {
@@ -271,7 +271,7 @@
 }
 
 .container-extras {
-    background-color: #93d7d4;
+    background-color: #FFC2E2BF;
     border-radius: 20px;
     padding: 40px;
     display: flex;
@@ -305,6 +305,7 @@
     margin: 0;
     background-color: #fff ;
     padding-bottom: 30px;
+    margin-left: 30px;
     margin-bottom: 30px;
     border-radius: 8px;
     box-shadow: 0 24px 32px #41a4F93D;
@@ -412,7 +413,7 @@
 }
 
 .integrantes-container {
-background-color: #93d7d4;
+    background-color:  #ADE8F4BF;
     border-radius: 20px;
     padding: 40px;
     display: flex;
@@ -423,10 +424,11 @@ background-color: #93d7d4;
 }
 
 .integrante {
-    background-color: #Fff4ef ;
-    padding: 20px;
+    background-color: #Fff ;
+    padding: 10px;
+    margin: 10px;
     border-radius: 10px;
-    width: 250px;
+    width: 200px;
     text-align: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
